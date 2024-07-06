@@ -1,0 +1,6 @@
+Line 10
+  cout<< celsius <<" Celsius = "<<farenheit<<" Fahrenheit."; }
+Line 33
+  TempConvert temp();
+Line 37
+  temp.Display(tempF)
