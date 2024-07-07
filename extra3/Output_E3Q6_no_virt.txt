@@ -1,0 +1,9 @@
+This is a Lecturer’s salary :1500
+Job class
+
+This is a Lecturer’s salary :2590
+Job class
+
+= Your salary is :: RM 150
+Job class
+

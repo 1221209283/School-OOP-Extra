@@ -1,0 +1,11 @@
+This is a Lecturer’s salary :1500
+Lecturer 1 salary calculation done
+Job class
+
+This is a Lecturer’s salary :2590
+Lecturer 2 salary calculation done
+Job class
+
+= Your salary is :: RM 150
+Job class
+
