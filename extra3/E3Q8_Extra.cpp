@@ -10,16 +10,17 @@ public:
     b(b)
   {}
 
-  void operator=(const Test& x) {
+  Test& operator=(const Test& x) { // there is no limition of return type (depends on situation)
     a = x.a;
     b = x.b;
+    return *this; // return same type return is a must for multiple assignment 
   }
 
-  Test operator-(const Test& x) {
+  Test operator-(const Test& x) const {
     return Test((a - x.a), (b - x.b));
   }
 
-  Test operator+(const Test& x) {
+  Test operator+(const Test& x) const {
     return Test((a + x.a), (b + x.b));
   }
 };
@@ -30,4 +31,5 @@ int main() {
   Test p3;
   p3 = p1 - p2 ;
   p3 = p1 + p2;
+  return 0;
 }
